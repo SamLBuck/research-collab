@@ -22,6 +22,9 @@ function increment(){
 window.onload = function () {
   document.getElementById("customPrompt").style.display = "block";
 };
+function pageLogic(){
+  
+}
 
 function submitInputs() {
   const first = document.getElementById("input1").value;
