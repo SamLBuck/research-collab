@@ -1,5 +1,5 @@
 function scoreGrade(){
-const ans1 = document.getElementById("ans4");
+const ans1 = document.getElementById("ans2");
 const ans2 = document.getElementById("1ans1");
 const ans3 = document.getElementById("2ans4");
 const ans4 = document.getElementById("3ans1");
