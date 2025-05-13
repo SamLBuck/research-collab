@@ -20,6 +20,23 @@
       line-height: 1.6;
     }
 
+    .nextLink {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: lightblue;
+      border: 2px solid black;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+    }
+
+    .nextLink:hover {
+      background-color: deepskyblue;
+    }
+
   </style>
 </head>
 <body>
@@ -52,7 +69,7 @@
     <label for="3ans2"><input type="checkbox" id="3ans2" name="q1" value="3"> F</label><br>
   </form>
 
-  <button type = "button" onclick="scoreGrade()">Button</button>
+  <button type = "button" onclick="scoreGrade()">submit</button>
 
   <h1 id="result"></h1>
 
