@@ -37,6 +37,20 @@
       background-color: deepskyblue;
     }
 
+    .button {
+    background-color: lightblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    }
+
+    .button:hover {
+    background-color: deepskyblue;
+    }
+
   </style>
 </head>
 <body>
@@ -69,7 +83,7 @@
     <label for="3ans2"><input type="checkbox" id="3ans2" name="q1" value="3"> F</label><br>
   </form>
 
-  <button type = "button" onclick="scoreGrade()">submit</button>
+  <button class = "button" onclick="scoreGrade()">submit</button>
 
   <h1 id="result"></h1>
 
