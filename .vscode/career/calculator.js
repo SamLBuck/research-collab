@@ -42,5 +42,7 @@ function submitInputs() {
   } else {
     alert("Please enter both first and last name.");
   }
+
+  document.body.style.backgroundColor = "lightblue"
 }
 
